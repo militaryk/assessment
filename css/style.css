@@ -80,13 +80,36 @@ nav li > ul > li:hover > ul  {
         color: #444;
         grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
   }
+  
 
-  .box {
-       background-color: #fff;
+  .box2 {
+       background-image: url(../images/mountm.jpg) ;
+       background-size: cover;
+       background-repeat: no-repeat; 
        border-radius: 5px;
-       font-size: 150%;
+       font-size: 1vw;
        color:black;
+       border: solid black 2px;
   }
+  .box3 {
+    background-image: url(../images/papamoa.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    border-radius: 5px;
+    font-size: 1vw;
+    color:black;
+    border: solid black 2px;
+}
+
+.box1 {
+    background-image: url(../images/tauranga.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    border-radius: 5px;
+    font-size: 1vw;
+    color:black;
+    border: solid black 2px;
+}
 .a {
     grid-column: 5/7;
     grid-row: 4/10;
@@ -104,4 +127,9 @@ nav li > ul > li:hover > ul  {
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     color: #fff;
+    font-size: 1.5vw;
+}
+.cardt {
+    margin-left: 5%;
+    margin-right: 5%;
 }
