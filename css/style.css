@@ -156,3 +156,8 @@ nav li > ul > li:hover > ul  {
     text-align: center;
     color: #fff;
 }
+.article {
+  border-style: solid;
+  border-width: medium;
+  color: white;
+}
