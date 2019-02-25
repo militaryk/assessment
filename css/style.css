@@ -73,114 +73,86 @@ nav li > ul > li:hover > ul  {
     margin-left:100%;
     margin-top:-3em;
 }
-  .wrapper {
-    display: grid;
-    grid-gap: 10px;
-        grid-template: auto ;
-        color: #444;
-  }
-  
 
-  .box2 {
-       background-image: url(../images/mountm.jpg) ;
-       background-size: cover;
-       background-repeat: no-repeat; 
-       border-radius: 5px;
-       font-size: 1vw;
-       color:black;
-       border: solid black 2px;
-  }
-  .box3 {
-    background-image: url(../images/papamoa.jpg) ;
+  .square {
+    float:left;
+    position: relative;
+    width: 30%;
+    padding-bottom : 30%;
+    margin:1.66%;
+    overflow:hidden;
+}
+
+.content {
+    position:absolute;
+    height:80%;
+    width:90%;
+    padding: 10% 5%;
+}
+.table{
+    display:table;
+    height:100%;
+    width:100%;
+}
+.table-cell{
+    display:table-cell;
+    vertical-align:middle;
+    height:100%;
+    width:100%;
+}
+.square1 {
+    background-image: url(../images/Papamoa.jpg);
     background-size: cover;
     background-repeat: no-repeat; 
-    border-radius: 5px;
-    font-size: 1vw;
-    color:black;
-    border: solid black 2px;
+    float:left;
+    position: relative;
+    width: 30%;
+    padding-bottom : 30%;
+    margin:1.66%;
+    overflow:hidden;
+    margin-top: 10%;
 }
-
-.box1 {
-    background-image: url(../images/tauranga.jpg) ;
-    background-size: cover;
-    background-repeat: no-repeat; 
-    border-radius: 5px;
-    font-size: 1vw;
-    color:black;
-    border: solid black 2px;
-}
-.a {
-    grid-column: 1/2;
-    grid-row: 1/1;
-}
-.b {
-    grid-column: 2/3 ;
-    grid-row: 1/1 ;
-}
-.c {
-  grid-column: 3/4;
-  grid-row: 1/1;
-}
-
-
-.cardt {
-    margin-left: 5%;
-    margin-right: 5%;
-}
-.wrapper :hover {
-    background-color: #888;
-}
-.d {
-    grid-column: 1/2;
-    grid-row: 1/1;
-}
-.e {
-    grid-column:  1/2;
-    grid-row:  1/1;
-}
-.f {
-  grid-column: 1/2;
-  grid-row: 1/1;
-}
-.boxhead1 {
+.square2 {
+    background-image: url(../images/Tauranga.jpg);
     background-color: #333;
     background-size: cover;
-    background-repeat: no-repeat; 
-    border-radius: 5px;
-    font-size: 1vw;
-    color:black;
-    border: solid black 2px;
+    float:left;
+    position: relative;
+    width: 30%;
+    padding-bottom : 30%;
+    margin:1.66%;
+    overflow:hidden;
+    margin-top: 10%;
 }
-.boxhead2 {
-    background-color: #333;
+.square3 {
+    background-image: url(../images/MountM.png);
     background-size: cover;
-    background-repeat: no-repeat; 
-    border-radius: 5px;
-    font-size: 1vw;
-    color:black;
-    border: solid black 2px;
+    background-repeat: no-repeat;
+    float:left;
+    position: relative;
+    width: 30%;
+    padding-bottom : 30%;
+    margin:1.66%;
+    overflow:hidden;
+    margin-top: 10%;
 }
-.boxhead3 {
-    background-color: #333;
+.square3 :hover{
+    background-color: #111;
+}
+.gridinside {
+    margin: 10%;
+    margin-bottom: 0%;
+}
+.footer {
+    background-color: #333; 
     background-size: cover;
-    background-repeat: no-repeat; 
-    border-radius: 5px;
-    font-size: 1vw;
-    color:black;
-    border: solid black 2px;
+    margin-top: 60%;
 }
-h1{
-    color: #fff;
-    font-size: 15px;
-    text-align: center;
+.space {
+    width: 100%;
+    height: 60%;
 }
-h2{
-    color: #fff;
-    font-size: 15px;
+.footer {
     text-align: center;
-}
-h3{
     color: #fff;
-    font-size: 15px;
-    text-align: center;
 }
