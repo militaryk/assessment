@@ -158,10 +158,10 @@ nav li > ul > li:hover > ul  {
 }
 .article {
   border-style: solid;
-  border-width: medium;
-  color: white;
+  border-width: thin;
+  color: black;
   margin-left:5%;
   margin-right:5%;
-  margin-top: 15%;
-  margin-bootom: 15%;
+  margin-top: 5%;
+  background-color: whitesmoke; 
 }
