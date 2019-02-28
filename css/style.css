@@ -165,3 +165,39 @@ nav li > ul > li:hover > ul  {
   margin-top: 5%;
   background-color: whitesmoke; 
 }
+.linklist {
+    color: #111;
+    margin-left: 2%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    font-size: 200%;
+}
+.text1 {
+    margin-left: 2%;
+    margin-right: 2%;
+    align-content: center;
+    font-size: 150%;
+}
+.text2 {
+    margin-left: 2%;
+    margin-right: 2%;
+    align-content: center;
+    font-size: 150%;
+}
+.CBD {
+    float: right;
+    margin-right: 5%;
+    width: 40%;
+    height: 40%;
+    margin-left: 5%
+
+}
+h1 {
+    margin-left: 3%
+}
+h2 {
+    margin-left: 3%
+}
+h3 {
+    margin-left: 3%
+}
