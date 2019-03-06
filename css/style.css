@@ -5,7 +5,7 @@ body{
     font-family: "Lucida Grande", "Helvetica Nueue", Arial, sans-serif;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(..//images/background.jpg);
+    background-image: url(../images/background.jpg)
 
 }
 nav {
@@ -68,27 +68,18 @@ nav li > ul > li ul  {
     background-color: #888;
 }
 nav li > ul > li:hover > ul  {
-    position:absolute;
     display : block;
     margin-left:100%;
     margin-top:-3em;
 }
 
-  .square {
-    float:left;
-    position: relative;
-    width: 30%;
-    padding-bottom : 30%;
-    margin:1.66%;
-    overflow:hidden;
+.content {
+    width: 100%;
+    height: 100%;
+    background-color: #333;
+    background-size: cover;
 }
 
-.content {
-    position:absolute;
-    height:80%;
-    width:90%;
-    padding: 10% 5%;
-}
 .table{
     display:table;
     height:100%;
@@ -100,42 +91,16 @@ nav li > ul > li:hover > ul  {
     height:100%;
     width:100%;
 }
-.square1 {
-    background-image: url(../images/Papamoa.jpg);
-    background-size: cover;
-    background-repeat: no-repeat; 
+.square {
     float:left;
     position: relative;
     width: 30%;
-    padding-bottom : 30%;
     margin:1.66%;
     overflow:hidden;
     margin-top: 10%;
+
 }
-.square2 {
-    background-image: url(../images/Tauranga.jpg);
-    background-color: #333;
-    background-size: cover;
-    float:left;
-    position: relative;
-    width: 30%;
-    padding-bottom : 30%;
-    margin:1.66%;
-    overflow:hidden;
-    margin-top: 10%;
-}
-.square3 {
-    background-image: url(../images/MountM.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    float:left;
-    position: relative;
-    width: 30%;
-    padding-bottom : 30%;
-    margin:1.66%;
-    overflow:hidden;
-    margin-top: 10%;
-}
+
 .square3 :hover{
     background-color: #111;
 }
@@ -146,7 +111,8 @@ nav li > ul > li:hover > ul  {
 .footer {
     background-color: #333; 
     background-size: cover;
-    margin-top: 60%;
+    margin-top: 2.5%;
+
 }
 .space {
     width: 100%;
@@ -219,4 +185,16 @@ a:hover {
     border-bottom: #111;
     border-bottom-style: solid;
     border-bottom-width: medium;
+}
+.content:hover {
+    opacity:0.9;
+}
+.homearticle {
+    margin-top: 50%;
+    border-style: solid;
+    border-width: thin;
+    color: black;
+    margin-left:5%;
+    margin-right:5%;
+    background-color: whitesmoke; 
 }
