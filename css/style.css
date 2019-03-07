@@ -1,3 +1,4 @@
+/* Controls The Background and nav fonts*/
 body{
     margin: 0;
     padding: 0;
@@ -8,6 +9,7 @@ body{
     background-image: url(../images/background.jpg)
 
 }
+/* Sets The Background and Text Color for the Nav */
 nav {
     background-color: #333;
     border: 1px solid #333;
@@ -16,18 +18,19 @@ nav {
     margin: 0;
     overflow: hidden;
 }
+/* Removes the extra margin around the Nav links */
 nav ul{
     margin: 0;
     padding: 0;
     list-style: none;
 }
+/* Allows The Links to be beside eachother. removes the list styles*/
 nav ul li {
     margin: 0;
     display: inline-block;
     list-style-type: none;
-    transition: all 0.2s;
 }
-
+/* Styles The First Layer Of Links On Nav*/
 nav > ul > li > a {
     color: #aaa;
     display: block;
@@ -36,7 +39,7 @@ nav > ul > li > a {
     text-decoration: none;
 
 }
-
+/* Controls the dropdown for the Nav */
 nav li > ul{
     display : none;
     margin-top:1px;
@@ -44,10 +47,11 @@ nav li > ul{
 
 }
 
+/* Forces the drop down to be one ontop of the other */
 nav li > ul li{
     display: block;
 }
-
+/* Styles the link inside the dropdown */
 nav  li > ul li a {
     color: #111;
     display: block;
@@ -55,42 +59,24 @@ nav  li > ul li a {
     padding: 0.5em 2em;
     text-decoration: none;
 }
-
+/* Forces the color to change to #666 when first layer nav link is hovered over*/
 nav li:hover {
     background-color: #666;
 }
+/* Triggers the Dropdown menu for Sub Nav links */
 nav li:hover > ul{
     position:absolute;
     display : block;
 }
-nav li > ul > li ul  {
-    display: none;
-    background-color: #888;
-}
-nav li > ul > li:hover > ul  {
-    display : block;
-    margin-left:100%;
-    margin-top:-3em;
-}
 
+/* sets the color behind the image in each sqaure */
 .content {
     width: 100%;
     height: 100%;
     background-color: #333;
     background-size: cover;
 }
-
-.table{
-    display:table;
-    height:100%;
-    width:100%;
-}
-.table-cell{
-    display:table-cell;
-    vertical-align:middle;
-    height:100%;
-    width:100%;
-}
+/* Creates the Square for each of the images on the index */
 .square {
     float:left;
     position: relative;
@@ -100,28 +86,16 @@ nav li > ul > li:hover > ul  {
     margin-top: 10%;
 
 }
-
-.square3 :hover{
-    background-color: #111;
-}
-.gridinside {
-    margin: 10%;
-    margin-bottom: 0%;
-}
-.footer {
+/* creates a margin between the footer and the homepage article and styles the background color*/
+footer {
     background-color: #333; 
     background-size: cover;
     margin-top: 2.5%;
-
-}
-.space {
-    width: 100%;
-    height: 60%;
-}
-.footer {
     text-align: center;
     color: #fff;
+
 }
+/* sets the border for each article, sets the margins around each article and sets the background color */
 .article {
   border-style: solid;
   border-width: thin;
@@ -131,6 +105,7 @@ nav li > ul > li:hover > ul  {
   margin-top: 5%;
   background-color: whitesmoke; 
 }
+/* sets the color and the margin for each of the links withen the articles */
 .linklist {
     color: #111;
     margin-left: 2%;
@@ -138,18 +113,14 @@ nav li > ul > li:hover > ul  {
     margin-bottom: 10%;
     font-size: 200%;
 }
+/* Sets the alignment and margin and font size for the text withen the articles */
 .text1 {
     margin-left: 2%;
     margin-right: 2%;
     align-content: center;
     font-size: 150%;
 }
-.text2 {
-    margin-left: 2%;
-    margin-right: 2%;
-    align-content: center;
-    font-size: 150%;
-}
+/*  sets the location, width and height and margin*/
 .CBD {
     float: right;
     margin-right: 5%;
@@ -158,23 +129,25 @@ nav li > ul > li:hover > ul  {
     margin-left: 5%
 
 }
+/* Sets the margin for each the headers*/
 h1 {
     margin-left: 3%
 }
+/* Sets alignment of the header*/
 h2 {
-     text-align: center;
+    text-align: center;
 }
-h3 {
-    margin-left: 3%
-}
+/* Changes the color of the link that is hovered over to black when hovered*/
 a:hover {
     color:#111;
 }
+/*Styles the recomended links in the articles */
 .Atrc {
     color: #111;
     font-size: 100%;
     margin-left: 3%;
 }
+/* Sets the background color, border and background color, text color and size of the header*/
 .header {
     color: #888;
     background-color: #333;
@@ -186,9 +159,11 @@ a:hover {
     border-bottom-style: solid;
     border-bottom-width: medium;
 }
+/* changes the opacity of each square image on the index page */
 .content:hover {
     opacity:0.9;
 }
+/* styles the article on the index page by setting the margin, background color and border */
 .homearticle {
     margin-top: 50%;
     border-style: solid;
