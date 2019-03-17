@@ -195,3 +195,12 @@ a:hover {
     font-size: 100%;
     margin: 2.5%;
 }
+.proof {
+    width: 40%;
+    height: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.list {
+    margin: 2.5%;
+}
