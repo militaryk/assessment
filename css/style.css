@@ -24,13 +24,13 @@ nav ul{
     padding: 0;
     list-style: none;
 }
-/* Allows The Links to be beside eachother. removes the list styles*/
+/* Allows The Links to be beside eachother. removes the list styles */
 nav ul li {
     margin: 0;
     display: inline-block;
     list-style-type: none;
 }
-/* Styles The First Layer Of Links On Nav*/
+/* Styles The First Layer Of Links On Nav */
 nav > ul > li > a {
     color: #aaa;
     display: block;
@@ -113,6 +113,9 @@ footer {
     margin-bottom: 10%;
     font-size: 200%;
 }
+.linklist:hover {
+    color: #333;
+}
 /* Sets the alignment and margin and font size for the text withen the articles */
 .text1 {
     margin-left: 2%;
@@ -139,7 +142,7 @@ h2 {
 }
 /* Changes the color of the link that is hovered over to black when hovered*/
 a:hover {
-    color:#111;
+    color:white;
 }
 /*Styles the recomended links in the articles */
 .Atrc {
@@ -201,12 +204,15 @@ a:hover {
 }
 /* sets the size and margins for the images on the detail page that are proof */
 .proof {
-    width: 40%;
-    height: 40%;
-    margin-left: 5%;
-    margin-right: 5%;
+    width: 20%;
+    height: 20%;
+    margin: 2.5%;
 }
 /* Sets the margin for my lists on the details page */
 .list {
     margin: 2.5%;
+}
+/* Styles the link in the footer*/
+.footer {
+    color: turquoise;
 }
