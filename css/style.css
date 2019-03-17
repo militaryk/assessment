@@ -173,6 +173,7 @@ a:hover {
     margin-right:5%;
     background-color: whitesmoke; 
 }
+/*Sets the font, colour and size and location of the text for the header on the article pages */
 .title {
     float: right;
     margin-right: 30%;
@@ -180,27 +181,32 @@ a:hover {
     font-size: 150%;
     font-family: Arial, Helvetica, sans-serif;
 }
+/* ets the image size and magin of each of the images on the detail page about my plan/layout */
 .plan {
     width: 50%;
     height: 50%;
     margin-left: 25%;
     margin-right: 25%;
 }
+/* Sets the image size and margin for each image that is on the legal page */
 .legal {
     width: 20%;
     height: 20%;
     margin-left: 2.5%;
 }
+/* Sets the font size and margin for certain text */
 .text2 {
     font-size: 100%;
     margin: 2.5%;
 }
+/* sets the size and margins for the images on the detail page that are proof */
 .proof {
     width: 40%;
     height: 40%;
     margin-left: 5%;
     margin-right: 5%;
 }
+/* Sets the margin for my lists on the details page */
 .list {
     margin: 2.5%;
 }
